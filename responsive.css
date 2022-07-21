@@ -1,0 +1,32 @@
+@media screen and (max-width:1080px) and (min-width:600px) {
+    .header-container{
+       
+        width: 90%;
+    }
+    .header-title h1{
+        font-size: 40px;
+    }
+    .header-img img{
+        width: 100%;
+        margin-left: -20px;
+        margin-top: 310px;
+    }
+    .second-container{
+        flex-direction: column;
+        margin-left: 150px;
+       
+    }
+    .box{
+        
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .header-container{
+        width: 100%;
+    }
+    .second-container{
+        flex-direction: column;
+    }
+}
